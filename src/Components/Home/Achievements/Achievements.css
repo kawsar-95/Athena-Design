@@ -1,0 +1,22 @@
+.achieveCardOne{
+    background: linear-gradient(55deg, #03a4f4ff, #1fdeb0ff );
+    border-radius: 0 60px 0 60px;
+    padding: 30px 10px;
+    color: white;
+}
+.achieveCardTwo{
+    border-radius: 60px 0px 60px 0px;
+    box-shadow: 0px 5px 35px 5px  #dcfdff;
+    padding: 30px 10px;
+    color: #707070;
+}
+.achieveCardThree{
+    border-radius: 0 60px 0 60px;
+    box-shadow: 0px 5px 25px 2px #dcfdff;
+    padding: 30px 10px;
+    color: #707070;
+}
+/* .achieveCardInner{
+    display: flex;
+    margin-left: 20px;
+} */

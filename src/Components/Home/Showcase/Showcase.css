@@ -1,0 +1,42 @@
+.Showcase {
+  margin-top: 100px;
+}
+
+.showcaseDescription {
+  padding-right: 200px;
+}
+.showcaseTitle {
+  font-size: 70px;
+  letter-spacing: 1.5px;
+}
+.showcaseImg {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .Showcase {
+    margin-top: 30px;
+  }
+  .showcaseDescription {
+    padding-right: 0;
+  }
+  .pricingBtn {
+    margin-bottom: 50px;
+  }
+  .showcaseTitle {
+    font-size: 50px;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Showcase {
+    margin-top: 30px;
+  }
+  .showcaseDescription {
+    padding-right: 0;
+  }
+  .pricingBtn {
+    margin-bottom: 50px;
+  }
+}

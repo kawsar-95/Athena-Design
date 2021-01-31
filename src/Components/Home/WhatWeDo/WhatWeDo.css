@@ -1,0 +1,55 @@
+.bg-color {
+  background-color: #f4feff;
+}
+
+.card-style {
+  margin-top: 20px;
+}
+.card-style:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 30px 2px #f0f0f0;
+  border: 1px solid#FFFFFF;
+  border-radius: 60px 0px 60px 0px;
+}
+.card-style p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.text {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* Mobile Layout: 320px. */
+@media (min-width: 0px) and (max-width: 479px) {
+  .title h1 {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .text {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+  .title h1 {
+    text-align: center;
+    padding-left: 40px;
+  }
+  .text {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* Tablet Layout: 768px. */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text2 {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justifycenter !important;
+  }
+}

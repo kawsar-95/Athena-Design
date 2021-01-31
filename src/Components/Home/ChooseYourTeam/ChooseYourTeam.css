@@ -1,0 +1,51 @@
+.card-team,
+a {
+  color: black !important;
+}
+.team-price {
+  font-weight: bold !important;
+  font-size: 30px !important;
+}
+.team-hr {
+  width: 150px;
+  transition: all 0.5s ease;
+  background: #3cedce;
+}
+.card-body:hover .team-hr {
+  width: 0;
+  transition: all 0.5s ease;
+}
+.order-btn {
+  background: linear-gradient(90deg, rgba(25, 210, 193, 1) 35%, rgba(8, 175, 233, 1) 100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+.card-body:hover .order-btn {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease;
+}
+body .card {
+  border: none;
+}
+body .card:hover {
+  border: 2px solid #3cedce !important;
+  transition: all 0.5s ease;
+}
+@media only screen and (max-width: 993px) {
+  a {
+    font-size: 14px;
+  }
+  .team-h1 {
+    font-size: 28px;
+  }
+  .team-hr {
+    width: 100px;
+  }
+
+  .btn {
+    font-size: 15px !important;
+    padding: 5px 10px !important;
+  }
+}

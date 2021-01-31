@@ -1,0 +1,17 @@
+.footer {
+  background: #f4feff;
+}
+.iconStyle img {
+  height: 20px;
+  margin: 20px 25px 5px 0;
+}
+
+@media (max-width: 768px) {
+  .footer-icon,
+  .footer-des {
+    text-align: center;
+  }
+  .footer-des span {
+    font-size: 20px;
+  }
+}
