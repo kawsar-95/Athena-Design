@@ -38,11 +38,11 @@ const Footer = () => {
                                 <span>Blog</span> <br/>
                                 <span>Help Center</span> <br/>
                                 <span>Contact Us</span> <br/>
-                                <span>Status</span>                            
+                                <span>Status</span>
                             </Col>
                         </Row>
                         <Row className="text-secondary mt-3 text-center">
-                            <Col><span>Copyright @ 2020 All rights reserved, SCIC-TEAM9</span></Col>
+                            <Col><span>Copyright @ 2020 All rights reserved.</span></Col>
                         </Row>
                    </Col>
                </Row>
