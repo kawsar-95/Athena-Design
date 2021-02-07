@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Footer.css';
