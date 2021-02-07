@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+site url:(https://agitated-saha-f1acd6.netlify.app)
+
 ## Available Scripts
 
 In the project directory, you can run:
